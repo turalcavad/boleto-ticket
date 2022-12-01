@@ -36,7 +36,7 @@ module.exports = {
 			},
 
 			backgroundImage: {
-				"hero-pattern": "url('/src/assets/images/banner.jpg')",
+				"hero-pattern": "url('/src/assets/images/banner/banner01.jpg')",
 				"footer-texture": "url('/img/footer-texture.png')",
 			},
 		},
