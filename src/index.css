@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+	background-color: #001232;
+	font-family: "Open Sans", sans-serif;
+}
+
+a,
+p,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: 2px;
+	transition: all 0.3s ease 0s;
+}

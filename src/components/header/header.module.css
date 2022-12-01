@@ -1,0 +1,19 @@
+.hover {
+	padding: 4px 12px;
+}
+
+.hover::before {
+	width: 70px;
+	height: 2px;
+	background: #31d7a9;
+	top: 96px;
+	position: absolute;
+	content: "";
+	transform: scaleX(0);
+	transition: all ease 0.3s;
+	transform-origin: left;
+}
+
+.hover:hover::before {
+	transform: scaleX(1);
+}
