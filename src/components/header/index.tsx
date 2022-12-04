@@ -30,7 +30,7 @@ const Header = () => {
 						SIGN IN
 					</Link>
 
-					<MainButton title="JOIN US"></MainButton>
+					<MainButton id="0" active={true} title="JOIN US"></MainButton>
 				</nav>
 			</div>
 		</header>

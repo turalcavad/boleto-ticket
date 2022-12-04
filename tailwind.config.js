@@ -15,11 +15,12 @@ module.exports = {
 		container: {
 			center: true,
 			screens: {
-				sm: "600px",
-				md: "728px",
-				lg: "984px",
-				xxl: "1240px",
+				sm: "540px",
+				md: "720px",
+				lg: "890px",
+				xxl: "1140px",
 			},
+			padding: "0 15px",
 		},
 		extend: {
 			colors: {
@@ -30,6 +31,8 @@ module.exports = {
 				secondaryBtnColor: "#aa52a1",
 				thirdBtnColor: "#ff4343",
 				borderColor: "rgba(255, 255, 255, 0.102)",
+				dashedBorder: "#11326f",
+				movieCardBg: "#032055",
 				before: "#31d7a9",
 				bannerBg: "rgba(0, 18, 50, 0.4)",
 				boxShadow: "rgb(59, 55, 188 ,0.5)",
@@ -37,7 +40,7 @@ module.exports = {
 
 			backgroundImage: {
 				"hero-pattern": "url('/src/assets/images/banner/banner01.jpg')",
-				"footer-texture": "url('/img/footer-texture.png')",
+				"search-bg": "url('/src/assets/images/ticket/ticket-bg01.jpg')",
 			},
 		},
 	},
